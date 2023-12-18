@@ -29,7 +29,7 @@ class CollectionViewManager: NSObject, UICollectionViewDataSource, UICollectionV
     //Devuelve un layout con los parámetros elegidos.
     func setLayoutConfigurator() -> CollectionViewLayoutConfigurator {
         if tag == 0 {
-            collectionView.backgroundColor = .blue
+            collectionView.backgroundColor = .green
             return CollectionViewLayoutConfigurator(numberOfColumns: 3, horizontalSpacingBetweenCells: 10, verticalSpacingBetweenCells: 10)
         } else {
             collectionView.backgroundColor = .cyan
